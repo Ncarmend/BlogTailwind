@@ -1,0 +1,31 @@
+[
+const fs = require('fs');
+
+export const data = [
+  {
+    "id": 1,
+    "title": "Premier élément",
+    "content": "Contenu du premier élément...",
+    "img": "chemin/vers/image1.jpg"
+  },
+  {
+    "id": 2,
+    "title": "Deuxième élément",
+    "content": "Contenu du deuxième élément...",
+    "img": "chemin/vers/image2.jpg"
+  },
+  {
+    "id": 3,
+    "title": "Troisième élément",
+    "content": "Contenu du troisième élément...",
+    "img": "chemin/vers/image3.jpg"
+  }
+]];
+
+// Convertir l'objet JavaScript en format JSON
+const jsonData = JSON.stringify(data, null, 2);
+
+// Écrire le contenu dans un fichier
+fs.writeFileSync('data.json', jsonData, 'utf-8');
+
+console.log('Fichier JSON créé avec succès.');

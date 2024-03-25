@@ -1,0 +1,23 @@
+{
+  " users": [
+    {
+      "id": 1,
+      "username": "Carmen",
+      "email": "carmen@gmai.com",
+      "password": "carmen"
+    },
+    {
+      "id": 2,
+      "username": "Ncarmen",
+      "email": "carmen@gmai.com",
+      "password": "carmen2"
+    },
+    {
+      "id": 3,
+      "username": "NNCarmen",
+      "email": "carmen@gmai.com",
+      "password": "carmen3"
+    }
+  ]
+  
+}
