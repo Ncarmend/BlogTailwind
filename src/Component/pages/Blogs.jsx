@@ -30,17 +30,17 @@ function ArticleList() {
   <div className="bg-gradient-to-r from-gray-950 via-purple-950 to-indigo-950  brightness-200 " >
     <figure className="relative h-96 w-full">
       <img
-        className="h-full w-full rounded-xl object-cover object-center"
-        src="./images/pht1.jpg"
+        className="h-full w-full rounded-xl object-cover object-center skew-y-4 brightness-50"
+        src="./images/fotoordi.png"
         alt="nature image"
       />
-      <figcaption className="absolute bottom-8 left-2/4 flex w-[calc(100%-4rem)] -translate-x-2/4 justify-between rounded-xl border border-white bg-white/75 py-4 px-6 shadow-lg shadow-black/5 saturate-200 backdrop-blur-sm">
+      <figcaption className="absolute bottom-8 left-2/4 flex w-[calc(100%-4rem)] -translate-x-2/4 justify-between rounded-xl border border-white bg-white/25 py-4 px-6 shadow-lg shadow-black/5 saturate-200 backdrop-blur-sm">
         <div>
           <Typography variant="h5" color="blue-gray">
             By Dayana
           </Typography>
           <Typography color="gray" className="mt-2 font-normal">
-            18 December 2023
+            18 Julli 2023
           </Typography>
         </div>
         <Typography variant="h5" color="blue-gray">
@@ -60,7 +60,7 @@ function ArticleList() {
               <h2 key={article.id}> </h2>
                 <h1 className='text-green-600 text-5xl  -skew-y-6'>{article.title}</h1>
                 <div className="relative inset-4 flex justify-between  ml-28 mr-28 mb-8 pt-12">
-                <img  className="h-96 w-full rounded-lg object-cover object-center skew-y-6" src={article.img} alt={`Image ${article.id}`} />
+                <img  className="h-96 w-full rounded-lg object-cover object-center   skew-y-4 brightness-50" src={article.img} alt={`Image ${article.id}`} />
                 </div>
 
                 <div >

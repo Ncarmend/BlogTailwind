@@ -19,7 +19,7 @@ const Layout = () => {
         className="p-1 font-bold text-5xl "
       >
 
-      <Link to="/"><img src="/images/logouzuri.png"  alt="logo" /></Link>
+      <Link to="/"><img src="/images/llogo4.png"  alt="logo" /></Link>
         
       </Typography>
       <Typography

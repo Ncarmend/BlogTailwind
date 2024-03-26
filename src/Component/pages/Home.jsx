@@ -20,8 +20,8 @@ const Home = () => {
           <div className=" my-8">
                 <img src="https://www.kindacode.com/wp-content/uploads/2022/06/night-sky.jpeg" />
                 <h1 className="absolute my-10 text-5xl text-white top-1/4 left-1/2 -translate-x-1/2 -translate-y-1/2">
-                    <a class="flex items-center text-indigo-400 no-underline hover:no-underline font-bold text-2xl lg:text-4xl" href="#">
-                      <span class="bg-clip-text text-transparent bg-gradient-to-r from-green-400 via-pink-500 to-purple-500  mx-6">UZURI</span> DIGITAL AGENCY
+                    <a class="flex items-center text-indigo-400 no-underline hover:no-underline font-bold text-2xl lg:text-4xl" href="https://digitalwebprofil.com/">
+                      <span class="bg-clip-text text-transparent bg-gradient-to-r from-green-400 via-pink-500 to-purple-500  mx-6">DIGITALWEBPROFIL</span> AGENCY
                     </a>
                 </h1>
                 <h1 className="  absolute  ml-28 my-64 text-3xl md:text-5xl text-white opacity-75 font-bold leading-tight text-center md:text-left">
@@ -31,7 +31,7 @@ const Home = () => {
                 .</h1>
                 <h2 className="absolute   mb-4 text-xl  text-amber-400 top-16 left-1/2 -translate-x-1/2"> 
                           <span className="bg-clip-text text-transparent bg-gradient-to-r from-green-400 via-pink-500 to-purple-500">
-                          UZURI est une agence de communication créative, localisée à Bruxelles, spécialisée dans la communication digitale et l’identité d’entreprise.
+                          DigitalWebProfil est une agence de communication créative, localisée à Bruxelles, spécialisée dans la communication digitale et l’identité d’entreprise.
                           </span>
                   </h2>
                   <p className="absolute mx-8 italic text-green-100 bottom-36 right-5"> 
@@ -52,7 +52,7 @@ const Home = () => {
             
     <div className="flex flex-row mb-16">
                     <div className=" basis-1/3 relative w-full xl:w-3/4 p-2 overflow-hidden">
-                      <img className="mx-auto w-full md:w-4/5 transform -rotate-6 transition hover:scale-105 duration-700 ease-in-out hover:rotate-6"  src=" ../images/header.png" />
+                      <img className="mx-auto w-full md:w-4/5 transform -rotate-6 transition hover:scale-105 duration-700 ease-in-out hover:rotate-6"  src=" ../images/ordi8.jpg" />
                       <h4 className=" absolute text-xl mb-2 top-1/4 left-1/2 -translate-x-1/2 -translate-y-1/2  text-blue-300">
                         BRANDING
                       </h4>
@@ -61,18 +61,18 @@ const Home = () => {
                       </h4>
                     </div>
                     <div class=" basis-1/3 relative  w-full xl:w-3/4 p-2 overflow-hidden  ">
-                      <img className="  w-full md:w-4/5 transform rotate-6 transition hover:scale-105 duration-700 ease-in-out hover:rotate-6"  src=" ../images/header.png"/>
+                      <img className="  w-full md:w-4/5 transform rotate-6 transition hover:scale-105 duration-700 ease-in-out hover:rotate-6"  src=" ../images/ordi2.jpg"/>
                       <h4 className=" absolute text-xl mb-12 top-1/4 left-1/2 -translate-x-1/2 -translate-y-1/2  text-blue-300">
                           WEB</h4>
                           <h4 className=" absolute text-lg  top-1/2  -translate-x-1/2 -translate-y-1/2  text-blue-300"></h4>
                       <h2 className="absolute text-lg text-amber-400 bottom-36 left-1/2 -translate-x-1/2"></h2>
-                      <h5 className="absolute text-lg text-blue-400  my-4  top-12 left-10 right-20"> Nous créons votre sit web ou votre e-shop avc des solutions les plus adaptées selo vos bésoins</h5 >
+                      <h5 className="absolute text-lg text-blue-400  my-4  top-12 left-10 right-20"> Nous créons votre site web ou votre e-shop avc des solutions les plus adaptées selo vos bésoins</h5 >
                       <h3 className="absolute text-lg text-green-300 bottom-24 right-32">  </h3>
                   </div>
     
                   
                     <div class="  basis-1/3 relative  w-full xl:w-3/4 p-2 overflow-hidden">
-                          <img className="mx-auto w-full md:w-4/5 transform -rotate-6 transition hover:scale-105 duration-700 ease-in-out hover:rotate-6"  src=" ../images/header.png"/>
+                          <img className="mx-auto w-full md:w-4/5 transform -rotate-6 transition hover:scale-105 duration-700 ease-in-out hover:rotate-6"  src=" ../images/ord1.jpg"/>
                           <h4 className=" absolute text-xl mb-2 top-1/4 left-1/2 -translate-x-1/2 -translate-y-1/2  text-blue-300">
                               SOCIAL MEDIA
                               </h4>
@@ -103,7 +103,7 @@ const Home = () => {
           <div class="relative overflow-hidden bg-cover bg-no-repeat">
             <img
               className="rounded-t-lg"
-              src="../images/profil.jpg"
+              src="../images/profl.png"
               alt="" />
           </div>
           <div className="p-6">
@@ -116,7 +116,7 @@ const Home = () => {
         <div class="relative overflow-hidden bg-cover bg-no-repeat">
           <img
             className="rounded-t-lg"
-            src="../images/profil.jpg"
+            src="../images/profilphott.png"
             alt="" />
         </div>
         <div className="p-6">
@@ -162,9 +162,9 @@ const Home = () => {
     <div className="py-12 my-8 content-center   ">
           
           <div   className="h-76 grid grid-cols-3 gap-4 content-around py-4 mx-7 ">
-            <img src="../images/pht3.jpg "  className="rotate-12 hover:rotate-45  h-auto max-w-xs mt-6 mb-6  rounded  object-contain  skew-y-12 " alt="image 1" />
-            <img src="../images/pht3.jpg " className="-translate-y-6 -rotate-45  hover:rotate-90  hover:blur-lg max-w-xs mt-6 mb-6 rounded  object-contain   " alt="image 1"/>
-            <img src="../images/pht3.jpg " className="translate-x-6 sepia  rotate-12 max-w-xs hover:rotate-45  backdrop-saturate-200 bg-white/30  mt-6 mb-6 ml-8   rounded  object-contain   skew-y-12 " alt="image 1"  />
+            <img src="../images/mark.jpg "  className="rotate-12 hover:rotate-45  h-auto max-w-xs mt-6 mb-6  rounded  object-contain  skew-y-12 " alt="image 1" />
+            <img src="../images/ordi6.jpg " className="-translate-y-6 -rotate-45  hover:rotate-90  hover:blur-lg max-w-xs mt-6 mb-6 rounded  object-contain   " alt="image 1"/>
+            <img src="../images/ordi7.jpg " className="translate-x-6 sepia  rotate-12 max-w-xs hover:rotate-45  backdrop-saturate-200 bg-white/30  mt-6 mb-6 ml-8   rounded  object-contain   skew-y-12 " alt="image 1"  />
           </div>
     </div>
 </>
